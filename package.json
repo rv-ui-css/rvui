@@ -1,15 +1,15 @@
 {
-  "name": "rvui",
-  "version": "0.0.1",
+  "name": "@rvpelu/rv-ui",
+  "version": "0.0.3",
+  "private": false,
+  "keywords": ["css", "tailwind"],
   "author": {
     "email": "rivopelu12@gmail.com",
     "name": "rivo pelu",
     "url": "https://www.rivopelu.com"
   },
   "type": "module",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "main": "./dist/rvui.umd.cjs",
   "module": "./dist/rvui.js",
   "exports": {
@@ -30,17 +30,16 @@
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
-  "dependencies": {
+
+  "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
     "jsdom": "^24.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "tailwind-merge": "^3.3.0",
-    "vite-tsconfig-paths": "^4.3.2"
-  },
-  "devDependencies": {
+    "vite-tsconfig-paths": "^4.3.2",
     "@tailwindcss/postcss": "^4.1.7",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",

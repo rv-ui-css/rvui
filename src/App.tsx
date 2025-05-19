@@ -1,4 +1,4 @@
-import { Button } from "rvui";
+import Button from "@rvpelu/rv-ui";
 
 function App() {
   return (
