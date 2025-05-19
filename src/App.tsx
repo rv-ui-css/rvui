@@ -1,12 +1,9 @@
-import Button from "@rvpelu/rv-ui";
+import RouteBuilder from "./components/RoutesBuilder";
 
 function App() {
   return (
     <>
-      <div>
-		<Button color="info" >HELLO</Button>
-        <div>HELLO</div>
-      </div>
+      <RouteBuilder />
     </>
   );
 }

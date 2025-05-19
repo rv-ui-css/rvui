@@ -1,0 +1,5 @@
+export enum PAGE_TYPE_ENUM {
+  PRIMARY,
+  DOCUMENTATION,
+  FULL_PAGE,
+}
