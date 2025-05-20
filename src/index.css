@@ -52,4 +52,9 @@ body {
     --color-secondary-800: #9d380f;
     --color-secondary-900: #7e3110;
     --color-secondary-950: #441606;
+
+    --spacing-sidebar-width: 339px;
+    --spacing-top-bar-height: 48px;
+    --spacing-top-home-height: 120px;
+    --spacing-field-height: 34px;
 }

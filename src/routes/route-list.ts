@@ -6,7 +6,7 @@ import { ROUTES } from "./routes";
 export const RouteList: IRouteList[] = [
   {
     route: ROUTES.HOME(),
-    type: PAGE_TYPE_ENUM.FULL_PAGE,
+    type: PAGE_TYPE_ENUM.PRIMARY,
     elements: HomePage,
   },
 ];
