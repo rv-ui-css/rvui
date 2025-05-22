@@ -1,5 +1,5 @@
-import Button from "@rvpelu/rv-ui";
 import PageContainer from "../../lib/PageContainer";
+import {Button} from "@rvpelu/rv-ui";
 
 export default function HomePage() {
   return (
